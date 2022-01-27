@@ -1,0 +1,29 @@
+p,div{
+    color: rgb(0, 0, 0);
+}
+
+.odd {
+    background-color: rgb(255, 0, 0, 0.3);
+    font-family: Verdana, DejaVu Sans, sans-serif;
+}
+
+div{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#second{
+    color: rgb(47, 93, 228);
+    font-size: 36px;
+}
+
+.third{
+    font-size:  24px;
+}
+
+#fourth{
+    background-color: rgb(102, 241, 163);
+    font-size: 24px;
+    font-weight: 700;
+}
+
+
