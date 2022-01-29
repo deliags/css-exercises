@@ -6,7 +6,7 @@ body {
 .card {
   width: 400px;
   background: #fff;
-  margin: 8px auto;
+  margin: 16px auto; /*I changed it to 8px as it seemed to work*/
   padding: 8px;
 }
 
@@ -14,17 +14,21 @@ body {
   background: #e3f4ff;
   font-size: 16px;
   padding: 8px;
+  margin-top: auto;
+  margin-bottom: 8px
 }
 
 .content {
   background: #e3f4ff;
   padding: 16px 8px;
+  margin-bottom: 8px;
 }
 
 .button-container {
   background: #e3f4ff;
   padding: 8px;
-  margin: 8px;
+  /*margin: 8px auto;
+  margin-bottom: auto;*/
   text-align: center;
 }
 
@@ -33,5 +37,5 @@ button {
   border: 1px solid #eee;
   display: block;
   padding: 8px 24px;
-  center;
+  margin: auto;
 }
